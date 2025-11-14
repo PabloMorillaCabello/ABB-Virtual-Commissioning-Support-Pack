@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<lc:LibraryCompiler xmlns:lc="urn:abb-robotics-robotstudio-librarycompiler"
+										xmlns="urn:abb-robotics-robotstudio-graphiccomponent"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="urn:abb-robotics-robotstudio-librarycompiler file:///C:\Program%20Files%20(x86)\ABB\SDK\RobotStudio%202024%20SDK\LibraryCompilerSchema.xsd
+                                        urn:abb-robotics-robotstudio-graphiccomponent file:///C:\Program%20Files%20(x86)\ABB\SDK\RobotStudio%202024%20SDK\GraphicComponentSchema.xsd">
+	<lc:Library fileName="Buttons_Panel.rslib">
+		<lc:DocumentProperties>
+			<lc:Author>Pablo.Morilla</lc:Author>
+			<lc:Image source="Buttons_Panel.png"/>
+		</lc:DocumentProperties>
+		<SmartComponent name="Buttons_Panel" icon="Buttons_Panel.png"
+										codeBehind="Buttons_Panel.CodeBehind,Buttons_Panel.dll"
+										canBeSimulated="true">
+			<Properties>
+				<DynamicProperty name="STYRSPÄNNING_TILL" valueType="System.Boolean" value="false">
+					<Attribute key="AutoApply" value="true"/>
+				</DynamicProperty>
+				<DynamicProperty name="DRIFTMODE" valueType="System.Boolean" value="false">
+					<Attribute key="AutoApply" value="true"/>
+				</DynamicProperty>
+				<DynamicProperty name="UTGÅNGSLÄGE" valueType="System.Boolean" value="false">
+					<Attribute key="AutoApply" value="true"/>
+				</DynamicProperty>
+				<DynamicProperty name="CYKEL_START" valueType="System.Boolean" value="false">
+					<Attribute key="AutoApply" value="true"/>
+				</DynamicProperty>
+				<DynamicProperty name="MANUELL_UTAN_FÖRREGLING" valueType="System.Boolean" value="false">
+					<Attribute key="AutoApply" value="true"/>
+				</DynamicProperty>
+				<DynamicProperty name="BEGÄRAN_INTRÄDE" valueType="System.Boolean" value="false">
+					<Attribute key="AutoApply" value="true"/>
+				</DynamicProperty>
+				<DynamicProperty name="STYRSPÄNNING_FRÅN" valueType="System.Boolean" value="false">
+					<Attribute key="AutoApply" value="true"/>
+				</DynamicProperty>
+				<DynamicProperty name="CYKEL_STOPP" valueType="System.Boolean" value="false">
+					<Attribute key="AutoApply" value="true"/>
+				</DynamicProperty>
+				<DynamicProperty name="HALT" valueType="System.Boolean" value="false">
+					<Attribute key="AutoApply" value="true"/>
+				</DynamicProperty>
+				<DynamicProperty name="ÅTERSTÄLL_LARM" valueType="System.Boolean" value="false">
+					<Attribute key="AutoApply" value="true"/>
+				</DynamicProperty>
+				<DynamicProperty name="ÅTERSTÄLLNING_SKYDD" valueType="System.Boolean" value="false">
+					<Attribute key="AutoApply" value="true"/>
+				</DynamicProperty>
+			</Properties>
+			<Bindings>
+			</Bindings>
+			<Signals>
+				<IOSignal name="Open" signalType="DigitalInput" autoReset="true"/>
+				<IOSignal name="In1" signalType="DigitalInput"  />
+				<IOSignal name="In2" signalType="DigitalInput" />
+				<IOSignal name="In3" signalType="DigitalInput" />
+				<IOSignal name="In4" signalType="DigitalInput" />
+				<IOSignal name="In5" signalType="DigitalInput" />
+				<IOSignal name="In6" signalType="DigitalInput" />
+				<IOSignal name="In7" signalType="DigitalInput" />
+				<IOSignal name="In8" signalType="DigitalInput" />
+				<IOSignal name="In9" signalType="DigitalInput" />
+				<IOSignal name="In10" signalType="DigitalInput" />
+				<IOSignal name="In11" signalType="DigitalInput" />
+
+				<IOSignal name="Out1" signalType="DigitalOutput"  />
+				<IOSignal name="Out2" signalType="DigitalOutput" />
+				<IOSignal name="Out3" signalType="DigitalOutput" />
+				<IOSignal name="Out4" signalType="DigitalOutput" />
+				<IOSignal name="Out5" signalType="DigitalOutput" />
+				<IOSignal name="Out6" signalType="DigitalOutput" />
+				<IOSignal name="Out7" signalType="DigitalOutput" />
+				<IOSignal name="Out8" signalType="DigitalOutput" />
+				<IOSignal name="Out9" signalType="DigitalOutput" />
+				<IOSignal name="Out10" signalType="DigitalOutput" />
+				<IOSignal name="Out11" signalType="DigitalOutput" />
+			</Signals>
+			<GraphicComponents>
+			</GraphicComponents>
+			<Assets>
+				<Asset source="Buttons_Panel.dll"/>
+			</Assets>
+		</SmartComponent>
+	</lc:Library>
+</lc:LibraryCompiler>
